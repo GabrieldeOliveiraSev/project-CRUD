@@ -1,16 +1,104 @@
-.titulo {
-    color: #06067c;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-html , body {
-    /*Reset do css */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.button {
+.ibody {
+    background: url(../img/Fundo01.jpg);
+    background-repeat: no-repeat;
     
+}
+.card {
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    background-color:		#F5FFFA;   
+    width:632px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    text-align: center;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+
+.central {
+    width: 900px;
+    margin: auto;
+    padding-top: 13px;
+    height: 80%;
+}
+
+.menu-principal{
+    width: 70%;
+    background-color: #252323;
+    height: 70px;    
+    margin-right: auto;
+   
+}
+
+.titulo {
+    color: #32CD32;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    padding-top: 12px;
+    width: 100%;   
+    font-weight: bolder;    
+}
+
+.hearder-2 {
+    background-color: #00FF00   ;
+    width: 70%;
+    border-bottom: 5x solid #747474;
+    border-width: 10px;
+    height: 4px;
+    
+}
+
+
+
+.center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}   
+
+.menu {
+    width: 138%;
+    float:right;
+    padding-top: 40px;
+    
+}
+
+
+.menu ul li {
+    display: inline-block;
+    color:silver;
+    margin-left: 30px;
+    height:84px;
+    
+}
+
+
+.menu ul li:hover {
+    border-bottom:  7px solid 	#32CD32;
+    padding-bottom: 18px;
+}
+
+.menu ul li a:hover {
+    color: 	#32CD32;
+    font-weight:bold;
+      
+}
+
+.menu ul li a {
+    text-decoration:white;
+    color: #252323;
+    padding: 4px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
 }

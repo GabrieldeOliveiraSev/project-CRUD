@@ -1,4 +1,4 @@
-tbProds {
+#tbProds {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     width: 100%;
@@ -20,3 +20,4 @@ tbProds {
     background-color: #2d4af2;
     color: white;
   }
+
