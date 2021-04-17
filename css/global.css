@@ -1,5 +1,5 @@
 .ibody {
-    background: url(../img/Fundo01.jpg);
+    background: url(../img/Fundo02.jpg);
     background-repeat: no-repeat;
     
 }
@@ -34,7 +34,7 @@
 }
 
 .titulo {
-    color: #32CD32;
+    color: #61c561;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
     padding-top: 12px;
@@ -43,7 +43,7 @@
 }
 
 .hearder-2 {
-    background-color: #00FF00   ;
+    background-color: #44d344   ;
     width: 70%;
     border-bottom: 5x solid #747474;
     border-width: 10px;
@@ -83,18 +83,18 @@
 
 
 .menu ul li:hover {
-    border-bottom:  7px solid 	#32CD32;
+    border-bottom:  7px solid 	#44d344 ;
     padding-bottom: 18px;
 }
 
 .menu ul li a:hover {
-    color: 	#32CD32;
+    color: 	#2c7a2c;
     font-weight:bold;
       
 }
 
 .menu ul li a {
-    text-decoration:white;
+    text-decoration:rgb(255, 255, 255);
     color: #252323;
     padding: 4px;
     font-size: 22px;

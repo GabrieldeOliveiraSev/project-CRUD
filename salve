@@ -1,9 +1,0 @@
-  <div class="button">
-            <a href="./src/prodslist.html">
-                    <button type="button" class="btn btn-light">Consulta </button>
-                </a>   
-                    <button type="button" class="btn btn-secondary">Alteração</button>
-                    <button type="button" class="btn btn-warning">Exclusão</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-            </div>     
