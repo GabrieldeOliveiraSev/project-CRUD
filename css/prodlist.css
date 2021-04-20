@@ -1,3 +1,4 @@
+
 #tbProds {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
@@ -21,3 +22,13 @@
     color: white;
   }
 
+  .tituloprod {
+  width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#bfff00;
+    background-color: #0e0d0d;
+    background-size: 60px;
+  }
