@@ -1,8 +1,4 @@
 // Referências do DOM - HTML
-
-const { default: Swal } = require("sweetalert2");
-
-
 const inpCod = document.getElementById('inpCod');
 const inpName = document.getElementById('inpName');
 const inpDesc = document.getElementById('inpDesc');
@@ -13,7 +9,7 @@ const btnUpdate = document.getElementById('btnUpdate');
 
 //código
 
-const api = axios.creat({
+const api = axios.create({
     baseURL: 'http://18.224.8.119:3334/'
 })
 
@@ -42,20 +38,28 @@ btnUpdate.onclick = ()=> {
     }
 }   
 
-    inpCod.addEventListener('focusout', ()=> {
+    inpCod.addEventListener('keyup', ()=> {
         let codPro = inpCod.value;
-        if(codPro= '') {
+        if(codPro=='') {
             Swal.fire('Código não digitado!')
         }else {
+            desc = inpDesc.value;
         api.get('produto/' + codPro).then(res=>{
             const data = res.data;
-            console.log(data);
+            console.log('Numero de registro = '+data.legth);
 
+        if (data.lenhth == 0) {
             inpNome.value = data[0].nome;
             inpDesc.value = data[0].descri;
             inpQtda.value = data[0].qtda;
             inpFab.value = data[0].fabricante;
-            
-        })
-    }
+        }  
+
+    });
+
+
+    };
+    setTimeout(1500, ()=> {
+        console.log('consulta.........')
+    });
 });

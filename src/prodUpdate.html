@@ -1,47 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="/css/prodUpdate.css">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alteração de Produtos</title>
-</head>
-<body>
-    <header>
-        <h1>Alterar Produtos</h1>
-    </header>
-    <main>
-        <div class="conteinerform">
-
-            <label>código</label>
-            <input type="text" id="inpCod">
-
-            <label>Nome</label>
-            <input type="text" id="inpNome">          
-
-            <label>Descrição</label>
-            <input type="text" id="inpDesc">
-            
-            <label>Quantidade</label>
-            <input type="text" id="inpQtda"> 
-
-            <label>Fabricante</label>
-            <input type="text" id="inpFab">    
-
+<html lang="pt-BR">
+    <head>
+        <title>Alteração de Produtos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->	
+        <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../css/util.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!--===============================================================================================-->
+    </head>
+    <body>
+        
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100">
+                    <div class="login100-picjs-tilt" data-tilt>
+                        <img src="../img/img-01.png" alt="IMG">
+                    </div>
+    
+                    <form class="login100-form validate-form">
+                        <span class="login100-form-title">
+                            Alterar Produto
+                        </span>
+    
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" id="inpCod" type="text" name="Código" placeholder="Código">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                
+                            </span>
+                        </div>
+    
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" id="inpNome" type="text" name="pass" placeholder="Nome">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                
+                            </span>
+                        </div>
+    
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" id="inpDesc" type="text" name="Descrição" placeholder="Descrição">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                
+                            </span>
+                        </div>
+    
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" id="inpQtda" type="text" name="Qtda" placeholder="Quantidade">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                
+                            </span>
+                        </div>
+    
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" id="inpFab" type="text" name="Fab" placeholder="Fabricante">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                
+                            </span>
+                        </div>
+                        
+                        <div class="container-login100-form-btn">
+                            <button id="btnUpdate" class="login100-form-btn">							
+                                Alterar
+                            </button>
+                        </div>
+    
+                        <div class="container-login100-form-btn">
+                            <button  id="btnVoltar" class="login100-form-btn1">
+                                <a href="../index.html">
+                            Voltar
+                                </a>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+        
+        
+    
+        
+    <!--===============================================================================================-->	
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="vendor/tilt/tilt.jquery.min.js"></script>
+        <script src="../node_modules/axios/dist/axios.min.js"></script>
+        <script src="../js/prodUpdate.js"></script>
+        <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+        <script >
+            $('.js-tilt').tilt({
+                scale: 1.1
+            })
+    </script>
+</body>       
 
-        <div class="conteinerButton">
-            <button id="btnUpdate">Alterar</button>
-            <button id="btnVoltar"><a href=""></a></button>
-        </div>
-    </main>
-    <footer>
 
-    </footer>
-</body>
-<script src="../node_modules/axios/dist/axios.min.js"></script>
-<script src="../js/prodUpdate.js"></script>
-<script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"
+
 </html>
+
+
