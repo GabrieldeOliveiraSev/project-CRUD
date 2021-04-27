@@ -5,8 +5,10 @@ const inpDesc = document.getElementById('inpDesc');
 const inpQtda = document.getElementById('inpQtda');
 const inpFab = document.getElementById('inpFab');
 
-const btnUpdate = document.getElementById('btnUpdate');
+const lblDataHora = document.getElementById('lblDataHora');
 
+const btnUpdate = document.getElementById('btnUpdate');
+const btnConsult = document.getElementById('btnConsult')
 //código
 
 const api = axios.create({
@@ -38,10 +40,12 @@ btnUpdate.onclick = ()=> {
     }
 }   
 
-    inpCod.addEventListener('keyup', ()=> {
+    btnConsult.onclick = ()=> {
         let codPro = inpCod.value;
         if(codPro=='') {
+            limparCampos();
             Swal.fire('Código não digitado!')
+            
         }else {
             desc = inpDesc.value;
         api.get('produto/' + codPro).then(res=>{
@@ -53,13 +57,22 @@ btnUpdate.onclick = ()=> {
             inpDesc.value = data[0].descri;
             inpQtda.value = data[0].qtda;
             inpFab.value = data[0].fabricante;
+            lblDataHora.innerHTML = data[0]
         }  
 
-    });
+        });  
 
 
     };
-    setTimeout(1500, ()=> {
-        console.log('consulta.........')
-    });
-});
+};
+ 
+  
+function limparCampos() {
+    inpCod.value = '';
+    inpNome.value = '';
+    inpDesc.value = '';
+    inpQtda.value = '';
+    inpFab.value = '';
+    lblDataHora= '';
+    
+}

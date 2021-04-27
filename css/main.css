@@ -48,6 +48,7 @@ a {
 	-webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
+  text-decoration: none;
 }
 
 a:focus {
@@ -171,10 +172,11 @@ iframe {
 }
 
 .wrap-login100 {
-  width: 960px;
-  background: #f2f2f2;
+  width: 1060px;
+  background: #fff;
   border-radius: 10px;
   overflow: hidden;
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -182,27 +184,26 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-right: 80px;
-  padding-left: 20px;
- 
+  padding: 27px 120px 31px 74px;
+  
+  
 }
+
 
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
-  width: 500px;
-  align-items: center;
- float: none;
-  padding:30px 30px 40px 80px;
-
+  width: 200px;
 }
 
 .login100-pic img {
-  max-width: 78%;
-  
+ 
+  position: absolute; 
+  left: 192px;
+  top: 132px;
+
 }
+
 
 
 /*------------------------------------------------------------------
@@ -242,7 +243,7 @@ iframe {
   background: #e6e6e6;
   height: 50px;
   border-radius: 25px;
-  padding: 0 30px 0 68px;
+  padding: 0px 13px 0 20px;
 }
 
 
@@ -357,8 +358,6 @@ iframe {
   line-height: 1.5;
   color: #fff;
   text-transform: uppercase;
-
-
   width: 100%;
   height: 50px;
   border-radius: 25px;
@@ -371,11 +370,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 0 25px;
-
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+  
 }
 
 
@@ -494,4 +493,43 @@ iframe {
     visibility: visible;
     opacity: 1;
   }
+}
+
+.wrap-login101 {
+  width: 1060px;
+  background: rgb(3, 92, 15);
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 27px 120px 31px 74px;
+  
+  
+}
+.input101 {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #353535;
+
+
+}
+
+.focus-input101 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(0, 0, 0, 0.8);
 }
