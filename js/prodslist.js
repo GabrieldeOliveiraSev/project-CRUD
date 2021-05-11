@@ -6,6 +6,7 @@ const tbodyList = document.getElementById('tbodyList');
 
 const api = axios.create({
     baseURL: 'http://18.224.8.119:3334/'
+    
 })
 
 function listAll(){
