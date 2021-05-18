@@ -34,18 +34,16 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
-  background-image: url('../img/fundoPrincipal.jpg')!important;
+  background-image: url('../img/fundo_folha.jpg')!important;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #ffffff;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  line-height: 1.7;
+  color: #ffffff;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   text-decoration: none;
@@ -172,11 +170,9 @@ iframe {
 }
 
 .wrap-login100 {
-  width: 1060px;
-  background: #fff;
+  width: 1134px;  
   border-radius: 10px;
   overflow: hidden;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -196,15 +192,13 @@ iframe {
   width: 200px;
 }
 
-.login100-pic img {
- 
+.login100-pic img { 
   position: absolute; 
-  left: 192px;
-  top: 132px;
+  left: 84px;
+  top: 118px;
+  width: 40%;
 
 }
-
-
 
 /*------------------------------------------------------------------
 [  ]*/
@@ -214,8 +208,8 @@ iframe {
 
 .login100-form-title {
   font-family: Poppins-Bold;
-  font-size: 32px;
-  color: #252323;
+  font-size: 35px;
+  color: #c5c2c2;
   line-height: 1.2;
   text-align: center;
   width: 98%;
@@ -241,7 +235,7 @@ iframe {
   width: 100%;
   background: #e6e6e6;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 0px 13px 0 20px;
 }
 
@@ -317,15 +311,14 @@ iframe {
 .login100-form-btn {
   
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.5;
   color: #fff;
   text-transform: uppercase;
   width: 43%;
   height: 50px;
-  border-radius: 25px;
-  background: #5eb13d;
-  border:1px solid; 
+  border-radius: 8px;
+  background: #51a331;
   padding: 11px ;  
   text-decoration:none;  
 }
@@ -338,29 +331,43 @@ iframe {
 
 .login100-form-btn1 { 
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.5;
   color: #fff;
   text-transform: uppercase;
   width: 43%;
   height: 50px;
-  border-radius: 25px;
-  background: #c01f1f;
-  border: 1px solid; 
+  border-radius: 8px;
+  background: #ad1d1d;
   padding: 11px ;  
   text-decoration:none;  
 }
 
+.login100-form-btn2 { 
+  font-family: Montserrat-Bold;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 43%;
+  height: 50px;
+  border-radius: 8px;
+  background: #c2b119;
+  padding: 11px ;  
+  text-decoration:none;  
+}
 
 .login100-form-btn:hover {
-  background: #333333;
+  background: #2a6418;
 }
 
 .login100-form-btn1:hover {
-  background: #333333;
+  background: #6d1515;
 }
 
-
+.login100-form-btn2:hover {
+  background: #948607;
+}
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
