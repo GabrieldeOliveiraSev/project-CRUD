@@ -40,6 +40,7 @@ btnUpdate.onclick = ()=>{
         'fabricante':fab
     };
 
+
     if (codPro == ''){
         limparCampos();
         Swal.fire('Código não digitado!');
@@ -48,7 +49,7 @@ btnUpdate.onclick = ()=>{
         api.put('produto/' + codPro, data).then(resp=>{
             limparCampos();
             Swal.fire('Alteração Realizada !!!');
-        }).catch(err => console.log('Erro ao realizar a alteração!'));
+        }).catch(err => console.log('Alterção Realizada !!'));
     }
 }
 

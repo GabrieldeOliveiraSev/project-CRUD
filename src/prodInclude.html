@@ -4,22 +4,12 @@
         <title>Cadastro de Produtos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--===============================================================================================-->	
-        <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-    <!--===============================================================================================-->	
-        <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
+
         <link rel="stylesheet" type="text/css" href="../css/util.css">
-        <link rel="stylesheet" type="text/css" href="../css/Include.css">
     <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="../css/Include.css">
+    <!--===============================================================================================-->
+
     </head>
     <body>
         <div class="limiter">
@@ -62,10 +52,20 @@
                             <input class="input100" id="inpFab" type="text" name="Fab" placeholder="Fabricante">
                             <span class="focus-input100"></span>     
                         </div>
+                        
+                        <br>
 
                         <div class="container-login100-form-btn">
                             <button id="btnInclude" class="login100-form-btn">							
                                 Cadastrar
+                            </button>
+                        </div>
+
+                        <div class="container-login100-form-btn">
+                            <button id="btnConsult" class="login100-form-btn2">		
+                                <a href="../src/prodslist.html">					
+                                Consultar
+                                </a>
                             </button>
                         </div>
 
@@ -82,26 +82,10 @@
         </div>
     </div>
         
-        
-
-        
-    <!--===============================================================================================-->	
-        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-    <!--===============================================================================================-->
-        <script src="vendor/bootstrap/js/popper.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!--===============================================================================================-->
-        <script src="vendor/select2/select2.min.js"></script>
-    <!--===============================================================================================-->
-        <script src="vendor/tilt/tilt.jquery.min.js"></script>
         <script src="../node_modules/axios/dist/axios.min.js"></script>
         <script src="../js/prodInclude.js"></script>
         <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
-        <script >
-            $('.js-tilt').tilt({
-                scale: 1.1
-            })
-    </script>
+     
 </body>       
 
 

@@ -343,6 +343,20 @@
     text-decoration:none;  
   }
   
+  .login100-form-btn2 { 
+    font-family: Montserrat-Bold;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 43%;
+    height: 50px;
+    border-radius: 8px;
+    background: #c2b119;
+    padding: 11px ;  
+    text-decoration:none;  
+    
+  }
   
   .login100-form-btn:hover {
     background: #2a6418;
@@ -352,6 +366,9 @@
     background: #6d1515;
   }
   
+  .login100-form-btn2:hover {
+    background: #948607;
+  }
   
   
   /*------------------------------------------------------------------
